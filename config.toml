@@ -1,7 +1,7 @@
 # Site settings
-baseURL = "http://example.org/"
+baseURL = "https://unstable.tech"
 languageCode = "en-us"
-title = "Forty"
+title = "Unstable Tech"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
@@ -19,8 +19,8 @@ disqusShortname = ""
   # CSS class.
 
   # Provide your metadata here.
-  name = "Your name"
-  description = "Your description"
+  name = "William Cody Young"
+  description = "Portfolio"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -37,9 +37,9 @@ disqusShortname = ""
 
   # Navigation Section
   [params.navigation]
-    title = "Forty"
-    subtitle = "By HTML5 Up"
-    menu = "Menu"
+    title = "William Cody Young's"
+    subtitle = "Unstable Tech"
+    # menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
 
@@ -48,16 +48,16 @@ disqusShortname = ""
       url = "#"
 
     [[params.navigation.links]]
-      name = "Blogs"
-      url = "blogs"
+      name = "Blog"
+      url = "https://william.zone"
 
     [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
+      name = "Cleburne Makerspace"
+      url = "https://cleburnemaker.space"
 
-    [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+    # [[params.navigation.links]]
+      # name = "Elements"
+      # url = "elements.html"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -67,66 +67,89 @@ disqusShortname = ""
     #    url = "UrlOfLink"
 
     # Button Style 1
-    [[params.navigation.button1]]
-      name = "Get Started"
-      url = "blogs"
+    # [[params.navigation.button1]]
+      # name = "Get Started"
+      # url = "blogs"
 
     # Button Style 2
-    [[params.navigation.button2]]
-      name = "Log In"
-      url = "#"
+    # [[params.navigation.button2]]
+      # name = "Log In"
+      # url = "#"
 
 
   # Banner section
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Hi, my name is Forty"
-    subtitle = "A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP\nAND RELEASED UNDER THE CREATIVE COMMONS."
-    buttonText = "Get Started"
+    title = "Hi, my name is William Cody Young"
+    subtitle = "And these are my tools, games, apps, experiments... My Unstable Tech"
+    buttonText = "Take A Look"
 
 
   # Tiles Section
   [params.tiles]
     enable = true
     # Display your showcases here.
-    
-    [[params.tiles.showcase]]
-      title = "Aliquam"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic01.jpg"
-      url = "blogs/aliquam"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
-      image = "pic02.jpg"
-      url = "blogs/tempus"
+      title = "RPGMill Builder"
+      subtitle = "RPG game planning and design tool"
+      image = "rpgmillbuilder.png"
+      url = "https://github.com/cody-code-wy/RPGMill-Builder"
 
     [[params.tiles.showcase]]
-      title = "Magna"
-      subtitle = "Lorem Etiam Nullam"
-      image = "pic03.jpg"
-      url = "blogs/magna"
+      title = "Young Custom Theatre Equiptment Wireless Props"
+      subtitle = "Arduino based wirelessly controlled props with local effect handling"
+      image = "ursulashell.jpg"
+      url = "https://github.com/cody-code-wy/Ursula_Shell_Recieve"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
-      image = "pic04.jpg"
-      url = "blogs/ipsum"
+      title = "Victoria Kernel"
+      subtitle = "Basic Real Time Kernel"
+      image = "victoriakernel.jpeg"
+      url = "https://github.com/cody-code-wy/Victoria-Kernel"
 
     [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic05.jpg"
-      url = "blogs/ipsum"
+      title = "SemenHub Dashboard"
+      subtitle = "Custom E-commerse platform for cattle semen sales for artificial insemination"
+      image = "semenhubdashboard.jpg"
+      url = "https://github.com/cody-code-wy/SemenHub-Dashboard"
 
     [[params.tiles.showcase]]
-      title = "Etiam"
-      subtitle = "Feugiat Amet Tempus"
-      image = "pic06.jpg"
-      url = "blogs/ipsum"
-    # You can make more showcases by copy and pasting the code above
+      title = "MineQuery"
+      subtitle = "Minecraft mod creating a scripting interface with a JQuery like api for interacting with the world"
+      image = "minequery.png"
+      url = "https://github.com/cody-code-wy/MineQuery"
+
+    [[params.tiles.showcase]]
+      title = "Entropy Craft"
+      subtitle = "Minecraft mod that causes torches to burn out overtime"
+      image = "entropycraft.png"
+      url = "https://github.com/cody-code-wy/Entropy-Craft"
+
+    [[params.tiles.showcase]]
+      title = "Universal Dotfile Preprocessor"
+      subtitle = "A tool to generate different config files (eg: .zshrc) for different systems from one file"
+      image = "dotfilepreprocessor.jpg"
+      url = "https://github.com/cody-code-wy/Universal-Dotfile-Preprocessor"
+
+    [[params.tiles.showcase]]
+      title = "Fibre Optic Kitten"
+      subtitle = "A RoR Blog platform using a git backend and no database"
+      image = "fibreoptickitten.jpg"
+      url = "https://github.com/cody-code-wy/Fibre-Optic-Kitten"
+
+    [[params.tiles.showcase]]
+      title = "Turbo Train"
+      subtitle = "A BrainFuck interpreter written in Ruby with full debugging support"
+      image = "turbotrainbrainfuck.jpg"
+      url = "https://github.com/cody-code-wy/turbo-train"
+
+    [[params.tiles.showcase]]
+      title = "YT Scraper"
+      subtitle = "A youtube scraper written in ruby"
+      image = "ytscraper.jpg"
+      url = "https://github.com/cody-code-wy/yt-scraper"
 
   [params.blog]
     # All blogs defined in their own files. You can find example blogs
@@ -138,14 +161,10 @@ disqusShortname = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Get Started"
-    url = "blogs"
+    title = "Cleburne Makerspace"
+    subtitle = """I am a founding member of the Cleburne Makerspace, a non-proft member driven shared workspace focusing on fostering and growing creativity in Cleburne. If you enjoy anything from Scrapbooking to Video Game Development we have the tools you need, classe to help you grow, and a friendly community."""
+    buttonText = "Checkout their Website"
+    url = "https://cleburnemaker.space"
 
 
   # Contact section
@@ -165,54 +184,54 @@ disqusShortname = ""
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    # formEmail = "example@domain.com"
+    formEmail = "contact@unstable.tech"
 
     # Contact Section
     # You can add multiple emails, phone numbers, or addresses
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "example@domain.com"
+    email = "william@unstable.tech"
 
     [[params.contact.phone]]
-    title = "Phone"
-    phone = "(000) 000-0000 x1234"
+    title = "Phone / Text"
+    phone = "(682) 553 8721"
 
     [[params.contact.address]]
     title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    street = "404 South Robinson Street"
+    city = "Cleburne, TX 76031"
+    country = "United States of America"
 
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Company Name"
+    copyright = "William \"Cody\" J. Young"
 
     # Uses font awesome icons
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      url= "https://www.twitter.com"
-      label = "Twitter"
+    # [[params.footer.social]]
+      # icon = "fa-twitter"
+      # url= "https://www.twitter.com"
+      # label = "Twitter"
 
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      url= "https://www.facebook.com"
-      label = "Facebook"
+    # [[params.footer.social]]
+      # icon = "fa-facebook"
+      # url= "https://www.facebook.com"
+      # label = "Facebook"
 
-    [[params.footer.social]]
-      icon = "fa-instagram"
-      url= "https://www.instagram.com"
-      label = "Instagram"
-    
+    # [[params.footer.social]]
+    #   icon = "fa-instagram"
+      # url= "https://www.instagram.com"
+      # label = "Instagram"
+
     [[params.footer.social]]
       icon = "fa-github"
-      url= "https://www.github.com"
+      url= "https://www.github.com/cody-code-wy"
       label = "GitHub"
 
     [[params.footer.social]]
       icon = "fa-linkedin"
-      url= "https://www.linkedin.com"
+      url= "https://www.linkedin.com/in/william-young-492790ba/"
       label = "LinkedIn"
 
     [[params.footer.quicklinks]]
